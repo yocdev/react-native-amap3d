@@ -8,6 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		39F1E7511EDA0CDF0005CEAA /* AMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E7501EDA0CDF0005CEAA /* AMapViewManager.m */; };
+		FA970D791F56AFD00098F143 /* AMapCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D561F56AFD00098F143 /* AMapCircle.m */; };
+		FA970D7A1F56AFD00098F143 /* AMapCircleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D571F56AFD00098F143 /* AMapCircleManager.m */; };
+		FA970D7B1F56AFD00098F143 /* AMapDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D591F56AFD00098F143 /* AMapDrive.m */; };
+		FA970D7C1F56AFD00098F143 /* AMapDriveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D5A1F56AFD00098F143 /* AMapDriveManager.m */; };
+		FA970D7D1F56AFD00098F143 /* AMapInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D5C1F56AFD00098F143 /* AMapInfoWindow.m */; };
+		FA970D7E1F56AFD00098F143 /* AMapInfoWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D5D1F56AFD00098F143 /* AMapInfoWindowManager.m */; };
+		FA970D7F1F56AFD00098F143 /* AMapMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D5F1F56AFD00098F143 /* AMapMarker.m */; };
+		FA970D801F56AFD00098F143 /* AMapMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D601F56AFD00098F143 /* AMapMarkerManager.m */; };
+		FA970D811F56AFD00098F143 /* AMapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D621F56AFD00098F143 /* AMapModel.m */; };
+		FA970D821F56AFD00098F143 /* AMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D651F56AFD00098F143 /* AMapOverlay.m */; };
+		FA970D831F56AFD00098F143 /* AMapOverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D661F56AFD00098F143 /* AMapOverlayManager.m */; };
+		FA970D841F56AFD00098F143 /* AMapPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D681F56AFD00098F143 /* AMapPolygon.m */; };
+		FA970D851F56AFD00098F143 /* AMapPolygonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D691F56AFD00098F143 /* AMapPolygonManager.m */; };
+		FA970D861F56AFD00098F143 /* AMapPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D6B1F56AFD00098F143 /* AMapPolyline.m */; };
+		FA970D871F56AFD00098F143 /* AMapPolylineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D6C1F56AFD00098F143 /* AMapPolylineManager.m */; };
+		FA970D881F56AFD00098F143 /* AMapRide.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D6E1F56AFD00098F143 /* AMapRide.m */; };
+		FA970D891F56AFD00098F143 /* AMapRideManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D6F1F56AFD00098F143 /* AMapRideManager.m */; };
+		FA970D8A1F56AFD00098F143 /* AMapUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D701F56AFD00098F143 /* AMapUtils.m */; };
+		FA970D8B1F56AFD00098F143 /* AMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D721F56AFD00098F143 /* AMapView.m */; };
+		FA970D8C1F56AFD00098F143 /* AMapWalk.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D741F56AFD00098F143 /* AMapWalk.m */; };
+		FA970D8D1F56AFD00098F143 /* AMapWalkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D751F56AFD00098F143 /* AMapWalkManager.m */; };
+		FA970D8E1F56AFD00098F143 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D771F56AFD00098F143 /* Coordinate.m */; };
+		FA970D8F1F56AFD00098F143 /* RCTConvert+AMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970D781F56AFD00098F143 /* RCTConvert+AMapView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +48,42 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libAMap3D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMap3D.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F1E7501EDA0CDF0005CEAA /* AMapViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapViewManager.m; sourceTree = "<group>"; };
+		FA970D551F56AFD00098F143 /* AMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapCircle.h; sourceTree = "<group>"; };
+		FA970D561F56AFD00098F143 /* AMapCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapCircle.m; sourceTree = "<group>"; };
+		FA970D571F56AFD00098F143 /* AMapCircleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapCircleManager.m; sourceTree = "<group>"; };
+		FA970D581F56AFD00098F143 /* AMapDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapDrive.h; sourceTree = "<group>"; };
+		FA970D591F56AFD00098F143 /* AMapDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapDrive.m; sourceTree = "<group>"; };
+		FA970D5A1F56AFD00098F143 /* AMapDriveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapDriveManager.m; sourceTree = "<group>"; };
+		FA970D5B1F56AFD00098F143 /* AMapInfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapInfoWindow.h; sourceTree = "<group>"; };
+		FA970D5C1F56AFD00098F143 /* AMapInfoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapInfoWindow.m; sourceTree = "<group>"; };
+		FA970D5D1F56AFD00098F143 /* AMapInfoWindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapInfoWindowManager.m; sourceTree = "<group>"; };
+		FA970D5E1F56AFD00098F143 /* AMapMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapMarker.h; sourceTree = "<group>"; };
+		FA970D5F1F56AFD00098F143 /* AMapMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapMarker.m; sourceTree = "<group>"; };
+		FA970D601F56AFD00098F143 /* AMapMarkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapMarkerManager.m; sourceTree = "<group>"; };
+		FA970D611F56AFD00098F143 /* AMapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapModel.h; sourceTree = "<group>"; };
+		FA970D621F56AFD00098F143 /* AMapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapModel.m; sourceTree = "<group>"; };
+		FA970D631F56AFD00098F143 /* AMapNavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapNavigationManager.h; sourceTree = "<group>"; };
+		FA970D641F56AFD00098F143 /* AMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapOverlay.h; sourceTree = "<group>"; };
+		FA970D651F56AFD00098F143 /* AMapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapOverlay.m; sourceTree = "<group>"; };
+		FA970D661F56AFD00098F143 /* AMapOverlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapOverlayManager.m; sourceTree = "<group>"; };
+		FA970D671F56AFD00098F143 /* AMapPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapPolygon.h; sourceTree = "<group>"; };
+		FA970D681F56AFD00098F143 /* AMapPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapPolygon.m; sourceTree = "<group>"; };
+		FA970D691F56AFD00098F143 /* AMapPolygonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapPolygonManager.m; sourceTree = "<group>"; };
+		FA970D6A1F56AFD00098F143 /* AMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapPolyline.h; sourceTree = "<group>"; };
+		FA970D6B1F56AFD00098F143 /* AMapPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapPolyline.m; sourceTree = "<group>"; };
+		FA970D6C1F56AFD00098F143 /* AMapPolylineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapPolylineManager.m; sourceTree = "<group>"; };
+		FA970D6D1F56AFD00098F143 /* AMapRide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapRide.h; sourceTree = "<group>"; };
+		FA970D6E1F56AFD00098F143 /* AMapRide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapRide.m; sourceTree = "<group>"; };
+		FA970D6F1F56AFD00098F143 /* AMapRideManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapRideManager.m; sourceTree = "<group>"; };
+		FA970D701F56AFD00098F143 /* AMapUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapUtils.m; sourceTree = "<group>"; };
+		FA970D711F56AFD00098F143 /* AMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapView.h; sourceTree = "<group>"; };
+		FA970D721F56AFD00098F143 /* AMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapView.m; sourceTree = "<group>"; };
+		FA970D731F56AFD00098F143 /* AMapWalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapWalk.h; sourceTree = "<group>"; };
+		FA970D741F56AFD00098F143 /* AMapWalk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapWalk.m; sourceTree = "<group>"; };
+		FA970D751F56AFD00098F143 /* AMapWalkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapWalkManager.m; sourceTree = "<group>"; };
+		FA970D761F56AFD00098F143 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		FA970D771F56AFD00098F143 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		FA970D781F56AFD00098F143 /* RCTConvert+AMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+AMapView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +108,42 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				FA970D551F56AFD00098F143 /* AMapCircle.h */,
+				FA970D561F56AFD00098F143 /* AMapCircle.m */,
+				FA970D571F56AFD00098F143 /* AMapCircleManager.m */,
+				FA970D581F56AFD00098F143 /* AMapDrive.h */,
+				FA970D591F56AFD00098F143 /* AMapDrive.m */,
+				FA970D5A1F56AFD00098F143 /* AMapDriveManager.m */,
+				FA970D5B1F56AFD00098F143 /* AMapInfoWindow.h */,
+				FA970D5C1F56AFD00098F143 /* AMapInfoWindow.m */,
+				FA970D5D1F56AFD00098F143 /* AMapInfoWindowManager.m */,
+				FA970D5E1F56AFD00098F143 /* AMapMarker.h */,
+				FA970D5F1F56AFD00098F143 /* AMapMarker.m */,
+				FA970D601F56AFD00098F143 /* AMapMarkerManager.m */,
+				FA970D611F56AFD00098F143 /* AMapModel.h */,
+				FA970D621F56AFD00098F143 /* AMapModel.m */,
+				FA970D631F56AFD00098F143 /* AMapNavigationManager.h */,
+				FA970D641F56AFD00098F143 /* AMapOverlay.h */,
+				FA970D651F56AFD00098F143 /* AMapOverlay.m */,
+				FA970D661F56AFD00098F143 /* AMapOverlayManager.m */,
+				FA970D671F56AFD00098F143 /* AMapPolygon.h */,
+				FA970D681F56AFD00098F143 /* AMapPolygon.m */,
+				FA970D691F56AFD00098F143 /* AMapPolygonManager.m */,
+				FA970D6A1F56AFD00098F143 /* AMapPolyline.h */,
+				FA970D6B1F56AFD00098F143 /* AMapPolyline.m */,
+				FA970D6C1F56AFD00098F143 /* AMapPolylineManager.m */,
+				FA970D6D1F56AFD00098F143 /* AMapRide.h */,
+				FA970D6E1F56AFD00098F143 /* AMapRide.m */,
+				FA970D6F1F56AFD00098F143 /* AMapRideManager.m */,
+				FA970D701F56AFD00098F143 /* AMapUtils.m */,
+				FA970D711F56AFD00098F143 /* AMapView.h */,
+				FA970D721F56AFD00098F143 /* AMapView.m */,
+				FA970D731F56AFD00098F143 /* AMapWalk.h */,
+				FA970D741F56AFD00098F143 /* AMapWalk.m */,
+				FA970D751F56AFD00098F143 /* AMapWalkManager.m */,
+				FA970D761F56AFD00098F143 /* Coordinate.h */,
+				FA970D771F56AFD00098F143 /* Coordinate.m */,
+				FA970D781F56AFD00098F143 /* RCTConvert+AMapView.m */,
 				39F1E7501EDA0CDF0005CEAA /* AMapViewManager.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
@@ -110,7 +205,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA970D7F1F56AFD00098F143 /* AMapMarker.m in Sources */,
+				FA970D861F56AFD00098F143 /* AMapPolyline.m in Sources */,
+				FA970D891F56AFD00098F143 /* AMapRideManager.m in Sources */,
+				FA970D7C1F56AFD00098F143 /* AMapDriveManager.m in Sources */,
+				FA970D811F56AFD00098F143 /* AMapModel.m in Sources */,
+				FA970D7A1F56AFD00098F143 /* AMapCircleManager.m in Sources */,
+				FA970D7D1F56AFD00098F143 /* AMapInfoWindow.m in Sources */,
+				FA970D8F1F56AFD00098F143 /* RCTConvert+AMapView.m in Sources */,
+				FA970D8E1F56AFD00098F143 /* Coordinate.m in Sources */,
+				FA970D871F56AFD00098F143 /* AMapPolylineManager.m in Sources */,
+				FA970D8A1F56AFD00098F143 /* AMapUtils.m in Sources */,
+				FA970D881F56AFD00098F143 /* AMapRide.m in Sources */,
+				FA970D791F56AFD00098F143 /* AMapCircle.m in Sources */,
+				FA970D8B1F56AFD00098F143 /* AMapView.m in Sources */,
+				FA970D7E1F56AFD00098F143 /* AMapInfoWindowManager.m in Sources */,
+				FA970D8D1F56AFD00098F143 /* AMapWalkManager.m in Sources */,
 				39F1E7511EDA0CDF0005CEAA /* AMapViewManager.m in Sources */,
+				FA970D7B1F56AFD00098F143 /* AMapDrive.m in Sources */,
+				FA970D801F56AFD00098F143 /* AMapMarkerManager.m in Sources */,
+				FA970D8C1F56AFD00098F143 /* AMapWalk.m in Sources */,
+				FA970D821F56AFD00098F143 /* AMapOverlay.m in Sources */,
+				FA970D831F56AFD00098F143 /* AMapOverlayManager.m in Sources */,
+				FA970D841F56AFD00098F143 /* AMapPolygon.m in Sources */,
+				FA970D851F56AFD00098F143 /* AMapPolygonManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,10 +312,10 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -210,10 +328,10 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
